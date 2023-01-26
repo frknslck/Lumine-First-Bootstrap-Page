@@ -1,0 +1,97 @@
+:root{
+    --lum: #883f89;
+}
+
+/*!!!!!!! NAVBAR !!!!!!!*/
+
+.icon{
+    width: 300px;
+}
+
+.navbar{
+    height: 100px !important;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: color 0.7s;
+}
+
+.nav-link.active:hover {
+    color: var(--lum) !important;
+}
+
+.nav-link:hover {
+    color: var(--lum);
+}
+
+/* .active{
+    color: var(--lum) !important;
+} */
+
+/*!!!!!!! CAROUSEL !!!!!!!*/
+
+.carousel-item{
+    max-height: 100vh
+}
+
+/*!!!!!!! SERVICES !!!!!!!*/
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: var(--lum);
+}
+
+.circle i {
+    position: relative;
+    top: 35px;
+}
+
+/*!!!!!!! ABOUT ME !!!!!!!*/
+
+.team img {
+    background-color: white;
+    width: 250px;
+    border: 2px solid var(--lum); 
+}
+
+a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: var(--lum);
+    line-height: 40px;
+}
+
+/*!!!!!!! PORTFOLIO !!!!!!!*/
+
+.zoom-img {
+    overflow: hidden;
+}
+
+.zoom-img img {
+    transition: all .3s ease;
+}
+
+.zoom-img img:hover {
+    transform: scale(1.1);
+}
+
+/*!!!!!!! CONTACT ME !!!!!!!*/
+
+.form-control, .form-control-lg{
+    border-color: var(--lum) !important;
+    outline: none;
+}
+
+.btn-lum{
+    background-color: var(--lum);
+    color: white;
+}
